@@ -51,6 +51,7 @@ const App = () => {
       <Button handler={fetchRandomJoke} text="next anecdote" />
       <h1>Anecdote with most votes</h1>
       {anecdotes[bestAnecdote]}
+      <p>has {mostVotes} votes</p>
     </div>
   )
 }
